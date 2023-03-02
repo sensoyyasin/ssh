@@ -1,3 +1,3 @@
 # ssh
 
-If you want to find your ssh key instantly and see it as a .txt on Desktop, run this script
+It allows you to quickly find your SSH key and then view it as a .txt file on the desktop.
