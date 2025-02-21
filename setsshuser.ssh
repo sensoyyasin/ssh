@@ -1,9 +1,10 @@
 #!/bin/bash
 
-USERNAME="sshuser"
+RANDOM_NUMBER=$((RANDOM % 9000 + 1000))
+USERNAME="sshuser$RANDOM_NUMBER"
 PASSWORD="123"
 SSH_KEY_PATH="/home/$USERNAME/.ssh/rsa_SSHKey"
-#REMOTE_HOST="**.**.**.**" -> change the remote_host address
+# REMOTE_HOST="**.**.**.**" -> select your remote_host
 
 sudo useradd -m -s /bin/bash "$USERNAME"
 
